@@ -1,0 +1,27 @@
+{
+  "name": "jsp",
+  "version": "1.0.0",
+  "description": "single page application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Brayner Stiven Cardenas Meneses, Yeison David Sanabria Ascanio, Carlos Andres Buendia Ortiz",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "babel-loader": "^8.2.4",
+    "copy-webpack-plugin": "^6.4.1",
+    "html-webpack-plugin": "^4.5.2",
+    "webpack": "^4.46.0",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
